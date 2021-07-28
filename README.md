@@ -30,7 +30,7 @@ namespace BinaryInterpolationTree
             return FullEvaluation(args, a1, a2));
         }
 
-        private IEnumerable<Vector> FullEvaluation(Vector args, float a1, float a2)
+        private Vector FullEvaluation(Vector args, float a1, float a2)
         {
             var e1 = child1.Evaluate(args);
             var e2 = child2.Evaluate(args);
