@@ -14,7 +14,7 @@ The main idea was to conceptionalize a model that provides:
 
 To make my explanations simpler and since i do not want to rewrite everything in pseudo-code, i will use simplified parts of my c# implementation provided in this repo, so c# knowledge might be necessary. 
 
-As the name sugests, this model is basicly a binary tree. This binary tree consists of nodes and end-nodes. Nodes alwas have 2 children and end-nodes have non. Every node also has a reference to its parent, except for the root-node wich has no parent. To calculate the output of this model for a given input, this binary tree is traversed recursivly from the root-node to the end-nodes and the results of both children are interpolated for each node:
+As the name sugests, this model is basicly a binary tree. This binary tree consists of nodes and end-nodes. Nodes alwas have 2 children and end-nodes have non. Every node also has a reference to its parent, except for the root-node wich has no parent. To calculate the output of this model for a given input, this binary tree is traversed recursivly from the root-node, to the end-nodes:
 
 ```c#
 namespace BinaryInterpolationTree
