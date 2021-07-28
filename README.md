@@ -17,7 +17,6 @@ As the name sugests, this model is basicly a binary tree. This binary tree consi
 
 
 To calculate the output of this model for a given input, this binary tree is traversed recursivly, from the root-node, to the end-nodes. In this process every endnode will just assign its output vector to ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Br_i%7D) where ![equation](https://latex.codecogs.com/gif.latex?i) is the unique identifier of this node. When both children have been evaluated and using the position of the child = ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bp_i%7D), the parent will calculate the follwing:
-https://latex.codecogs.com/gif.latex?I%28%5Cvec%7Bp_0%7D%2C%20%5Cvec%7Bp_1%7D%2C%20%5Cvec%7Bx%7D%29
 
 the following statements are true about InterpolationFactor(Vector p1, Vector p2, Vector arg) = I(p1, p2, x):
 
