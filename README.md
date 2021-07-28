@@ -14,7 +14,9 @@ The main idea was to conceptionalize a model that provides:
 
 As the name sugests, this model is basicly a binary tree. This binary tree consists of nodes and end-nodes. Nodes alwas have 2 children and end-nodes have non. Every node also has a reference to its parent, except for the root-node wich has no parent. For the purpose of describing this system mathematically, every node ![equation](https://latex.codecogs.com/gif.latex?n) has the following variables associated with it:
 
-
+![equation](https://latex.codecogs.com/gif.latex?id%28n%29) a unique identifier
+![equation](https://latex.codecogs.com/gif.latex?c_0%28id%28n%29%29) the id of the first child
+![equation](https://latex.codecogs.com/gif.latex?c_1%28id%28n%29%29) the id of the second child
 
 To calculate the output of this model for a given input, this binary tree is traversed recursivly, from the root-node, to the end-nodes. In this process every endnode will just assign its output vector to ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Br_i%7D) where ![equation](https://latex.codecogs.com/gif.latex?i) is the unique identifier of this node. When both children have been evaluated and using the position of the child = ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bp_i%7D), the parent will calculate the follwing:
 
