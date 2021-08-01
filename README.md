@@ -1,5 +1,9 @@
 # Binary Interpolation Tree (B.I.T)
 
+```diff
+- Github does not display the first page of the pdf. you probably have to download it if you want to read it
+```
+
 Binary Interpolation Tree is a machine learning model i have been working on mostly out of curiosity. Please let me know if my terminology is off, i made any other errors, or something very similar already exists. 
 
 The main idea was to conceptionalize a model that provides:
