@@ -12,4 +12,4 @@ The main idea was to conceptionalize a model that provides:
 * increased transparency compared to other ML models
 * a parameter regarding determinism of the algorithm
 
-[This](https://drive.google.com/file/d/1kWe1-GghLMHbX-C2Ap6jihhus9LSO5Xy/view?usp=sharing) is a link to demo of this algorithm for windows only. You don't have to understand or change the parameters to use this demo, but if you want to, refer to the pdf.
+[This](https://drive.google.com/file/d/1kWe1-GghLMHbX-C2Ap6jihhus9LSO5Xy/view?usp=sharing) is a link to a demo of this algorithm for windows only. You can raise the parameter "draw resolution" to see the model in greater detail, or lower it to get a faster runtime. You don't have to understand or change the other parameters to use this demo, but if you want to, refer to the pdf.
