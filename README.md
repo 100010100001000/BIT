@@ -1,7 +1,7 @@
 # Binary Interpolation Tree (B.I.T)
 
 ```diff
-- Github does not display the first page of the pdf. you probably have to download it if you want to read it
+- Github does not display the first page of the pdf. you probably have to download it, if you want to read it.
 ```
 
 Binary Interpolation Tree is a machine learning model i have been working on mostly out of curiosity. Please let me know if my terminology is off, i made any other errors, or something very similar already exists. 
@@ -16,4 +16,4 @@ The main idea was to conceptionalize a model that provides:
 * increased transparency compared to other ML models
 * a parameter regarding determinism of the algorithm
 
-[This](https://drive.google.com/file/d/19SjIzYrD3dIlTMvCeS17ep8FtpKrsS5n/view?usp=sharing) is a link to a demo of this algorithm for windows only. You can raise the parameter "draw resolution" to see the model in greater detail, or lower it to get a faster runtime. You don't have to understand or change the other parameters to use this demo, but if you want to, refer to the pdf.
+[This](https://drive.google.com/file/d/19SjIzYrD3dIlTMvCeS17ep8FtpKrsS5n/view?usp=sharing) is a link to a demo of this algorithm for windows only. You can raise the parameter "draw resolution", to see the model in greater detail, or lower it to get a faster runtime. You don't have to understand or change the other parameters to use this demo, but if you want to, refer to the pdf.
