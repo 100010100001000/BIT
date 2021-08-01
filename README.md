@@ -4,10 +4,10 @@ Binary Interpolation Tree is a machine learning model i have been working on mos
 
 The main idea was to conceptionalize a model that provides:
 
-fast runtime on cpu's in relation to model complexity (O(n), Ω(1), input dependent)
-the ability to further simplify computations based on a maximum inaccuracy
-simple and fast training
-very low initial model complexity that increases during training
-multithreading capabilities for maximum cpu usage
-increased transparency compared to other ML models
-a parameter regarding determinism of the algorithm
+* fast runtime on cpu's in relation to model complexity (O(n), Ω(1), input dependent)
+* the ability to further simplify computations based on a maximum inaccuracy
+* simple and fast training
+* very low initial model complexity that increases during training
+* multithreading capabilities for maximum cpu usage
+* increased transparency compared to other ML models
+* a parameter regarding determinism of the algorithm
